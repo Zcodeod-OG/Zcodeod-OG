@@ -1,0 +1,13 @@
+<svg width="900" height="270" viewBox="0 0 900 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="270" rx="16" fill="#09090B" stroke="#27272A"/>
+<circle cx="26" cy="26" r="5" fill="#52525B"/><circle cx="44" cy="26" r="5" fill="#52525B"/><circle cx="62" cy="26" r="5" fill="#52525B"/>
+<text x="90" y="31" fill="#71717A" font-family="monospace" font-size="12">~/amarsh</text>
+<text x="35" y="75" fill="#22D3EE" font-family="monospace" font-size="15">$</text>
+<text x="58" y="75" fill="#E4E4E7" font-family="monospace" font-size="15">cat current_mission.txt</text>
+<text x="35" y="108" fill="#FAFAFA" font-family="monospace" font-size="15">Build useful AI products.</text>
+<text x="35" y="135" fill="#A1A1AA" font-family="monospace" font-size="15">Speech · Multimodal AI · Product engineering</text>
+<text x="35" y="175" fill="#22D3EE" font-family="monospace" font-size="15">$</text>
+<text x="58" y="175" fill="#E4E4E7" font-family="monospace" font-size="15">cat status.txt</text>
+<text x="35" y="208" fill="#A1A1AA" font-family="monospace" font-size="15">BOOKLY      [ building ]</text>
+<text x="35" y="233" fill="#A1A1AA" font-family="monospace" font-size="15">ML / RESEARCH [ experimenting ]</text>
+</svg>
