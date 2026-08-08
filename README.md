@@ -6,20 +6,7 @@
 
 <br>
 
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                                                                          ║
-║     █████╗ ███╗   ███╗ █████╗ ██████╗ ███████╗██╗  ██╗                   ║
-║    ██╔══██╗████╗ ████║██╔══██╗██╔══██╗██╔════╝██║  ██║                   ║
-║    ███████║██╔████╔██║███████║██████╔╝███████╗███████║                   ║
-║    ██╔══██║██║╚██╔╝██║██╔══██║██╔══██╗╚════██║██╔══██║                   ║
-║    ██║  ██║██║ ╚═╝ ██║██║  ██║██║  ██║███████║██║  ██║                   ║
-║    ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝               ║
-║                                                                          ║
-║           [ BUILDING THE FUTURE WITH NEURAL NETWORKS ]                   ║
-║                                                                          ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+<img src="./assets/ascii_name.svg" width="90%" alt="AMARSH — ASCII Art">
 
 <br>
 
@@ -57,11 +44,40 @@
 
 ## `~/selected-work`
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<img src="./assets/projects_grid.svg" width="95%" alt="Project Registry">
+<a href="https://booklyaudio.com">
+<img src="./assets/card_bookly.svg" width="100%" alt="Bookly — AI Audiobook Platform">
+</a>
 
-</div>
+</td>
+<td width="50%">
+
+<a href="https://gradfit.tech">
+<img src="./assets/card_gradfit.svg" width="100%" alt="GradFit — Fashion AI">
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<a href="https://github.com/Zcodeod-OG/Rail-AI">
+<img src="./assets/card_railai.svg" width="100%" alt="Rail AI — Multimodal Fault Detection">
+</a>
+
+</td>
+<td width="50%">
+
+<a href="https://github.com/Zcodeod-OG/NOVA---A-Mobile-OS">
+<img src="./assets/card_nova.svg" width="100%" alt="NOVA OS — Local AI Runtime for Android">
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 

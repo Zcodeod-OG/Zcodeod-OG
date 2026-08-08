@@ -1,0 +1,14 @@
+<svg width="520" height="140" viewBox="0 0 520 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="140" rx="10" fill="#0D0D14"/>
+  <rect x="0.5" y="0.5" width="519" height="139" rx="9.5" stroke="#27272A" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="20" y="32" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="16" font-weight="700">🚂 Rail AI</text>
+  <text x="170" y="32" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">[RESEARCH]</text>
+  <text x="20" y="58" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">Multimodal railway fault detection</text>
+  <text x="20" y="76" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">using visual and audio signals.</text>
+  <rect x="20" y="96" width="40" height="20" rx="4" fill="#1A1A2E" stroke="#22D3EE" stroke-opacity="0.2" stroke-width="0.5"/>
+  <text x="40" y="110" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" text-anchor="middle">VLM</text>
+  <rect x="68" y="96" width="50" height="20" rx="4" fill="#1A1A2E" stroke="#A855F7" stroke-opacity="0.2" stroke-width="0.5"/>
+  <text x="93" y="110" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" text-anchor="middle">Audio</text>
+  <rect x="126" y="96" width="110" height="20" rx="4" fill="#1A1A2E" stroke="#22D3EE" stroke-opacity="0.2" stroke-width="0.5"/>
+  <text x="181" y="110" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="9" text-anchor="middle">Computer Vision</text>
+</svg>

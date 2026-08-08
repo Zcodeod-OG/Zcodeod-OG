@@ -1,0 +1,89 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glowA">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="asciiBorder" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" rx="14" fill="#0A0A0F"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="13.5" stroke="url(#asciiBorder)" stroke-width="1"/>
+
+  <!-- Line 1: Top border -->
+  <text x="50" y="40" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ╔══════════════════════════════════════════════════════════════════════════╗
+    <animate attributeName="opacity" from="0" to="0.6" begin="0.1s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 2: Empty -->
+  <text x="50" y="60" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ║                                                                          ║
+    <animate attributeName="opacity" from="0" to="0.6" begin="0.25s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 3: A M A R S H  row 1 -->
+  <text x="50" y="80" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║   █████╗ ███╗   ███╗ █████╗ ██████╗ ███████╗██╗  ██╗                    ║
+    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 4: row 2 -->
+  <text x="50" y="100" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║  ██╔══██╗████╗ ████║██╔══██╗██╔══██╗██╔════╝██║  ██║                    ║
+    <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 5: row 3 -->
+  <text x="50" y="120" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║  ███████║██╔████╔██║███████║██████╔╝███████╗███████║                    ║
+    <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 6: row 4 -->
+  <text x="50" y="140" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║  ██╔══██║██║╚██╔╝██║██╔══██║██╔══██╗╚════██║██╔══██║                    ║
+    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 7: row 5 -->
+  <text x="50" y="160" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║  ██║  ██║██║ ╚═╝ ██║██║  ██║██║  ██║███████║██║  ██║                    ║
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 8: row 6 -->
+  <text x="50" y="180" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ║  ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                ║
+    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 9: Empty -->
+  <text x="50" y="200" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ║                                                                          ║
+    <animate attributeName="opacity" from="0" to="0.6" begin="1.3s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 10: Tagline -->
+  <text x="50" y="220" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ║           [ BUILDING THE FUTURE WITH NEURAL NETWORKS ]                   ║
+    <animate attributeName="opacity" from="0" to="0.9" begin="1.5s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Line 11: Empty -->
+  <text x="50" y="240" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ║                                                                          ║
+    <animate attributeName="opacity" from="0" to="0.6" begin="1.8s" dur="0.15s" fill="freeze"/>
+  </text>
+
+  <!-- Line 12: Bottom border -->
+  <text x="50" y="260" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
+    ╚══════════════════════════════════════════════════════════════════════════╝
+    <animate attributeName="opacity" from="0" to="0.6" begin="1.95s" dur="0.15s" fill="freeze"/>
+  </text>
+</svg>
