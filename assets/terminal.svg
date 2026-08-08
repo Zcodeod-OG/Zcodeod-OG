@@ -1,13 +1,111 @@
-<svg width="900" height="270" viewBox="0 0 900 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="900" height="270" rx="16" fill="#09090B" stroke="#27272A"/>
-<circle cx="26" cy="26" r="5" fill="#52525B"/><circle cx="44" cy="26" r="5" fill="#52525B"/><circle cx="62" cy="26" r="5" fill="#52525B"/>
-<text x="90" y="31" fill="#71717A" font-family="monospace" font-size="12">~/amarsh</text>
-<text x="35" y="75" fill="#22D3EE" font-family="monospace" font-size="15">$</text>
-<text x="58" y="75" fill="#E4E4E7" font-family="monospace" font-size="15">cat current_mission.txt</text>
-<text x="35" y="108" fill="#FAFAFA" font-family="monospace" font-size="15">Build useful AI products.</text>
-<text x="35" y="135" fill="#A1A1AA" font-family="monospace" font-size="15">Speech · Multimodal AI · Product engineering</text>
-<text x="35" y="175" fill="#22D3EE" font-family="monospace" font-size="15">$</text>
-<text x="58" y="175" fill="#E4E4E7" font-family="monospace" font-size="15">cat status.txt</text>
-<text x="35" y="208" fill="#A1A1AA" font-family="monospace" font-size="15">BOOKLY      [ building ]</text>
-<text x="35" y="233" fill="#A1A1AA" font-family="monospace" font-size="15">ML / RESEARCH [ experimenting ]</text>
+<svg width="1100" height="320" viewBox="0 0 1100 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGradT" x1="0" y1="0" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glowDot">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="320" rx="14" fill="#0A0A0F"/>
+  <rect x="0.5" y="0.5" width="1099" height="319" rx="13.5" stroke="url(#borderGradT)" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="22" r="5" fill="#FF5F57" opacity="0.7"/>
+  <circle cx="42" cy="22" r="5" fill="#FFBD2E" opacity="0.7"/>
+  <circle cx="60" cy="22" r="5" fill="#28CA42" opacity="0.7"/>
+  <text x="82" y="27" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">nova-command — system status</text>
+
+  <!-- Vertical divider -->
+  <line x1="540" y1="50" x2="540" y2="300" stroke="#22D3EE" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- LEFT PANEL — Identity -->
+  <text x="30" y="62" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" letter-spacing="3">IDENTITY MODULE</text>
+
+  <text x="30" y="95" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">$</text>
+  <text x="50" y="95" fill="#E4E4E7" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">nova status --all</text>
+
+  <text x="30" y="130" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">SYSTEM</text>
+  <text x="170" y="130" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" font-weight="600">AMARSH CHOUDHARY</text>
+
+  <text x="30" y="155" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">ROLE</text>
+  <text x="170" y="155" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">AI ENGINEER / FOUNDER</text>
+
+  <text x="30" y="180" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">BASE</text>
+  <text x="170" y="180" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">IIT DELHI</text>
+
+  <text x="30" y="205" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">UPTIME</text>
+  <text x="170" y="205" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">3y 2m (since 2024)</text>
+
+  <text x="30" y="245" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" letter-spacing="3">FOCUS AREAS</text>
+
+  <text x="30" y="270" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">▸</text>
+  <text x="50" y="270" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">Speech &amp; Generative AI</text>
+
+  <text x="30" y="292" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">▸</text>
+  <text x="50" y="292" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">Multimodal Systems · Product Engineering</text>
+
+  <!-- RIGHT PANEL — Mission Control -->
+  <text x="570" y="62" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" letter-spacing="3">MISSION CONTROL</text>
+
+  <!-- Bookly -->
+  <circle cx="580" cy="96" r="4" fill="#28CA42" filter="url(#glowDot)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="596" y="100" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">BOOKLY</text>
+  <rect x="720" y="89" width="200" height="14" rx="3" fill="#1A1A2E"/>
+  <rect x="720" y="89" width="176" height="14" rx="3" fill="#22D3EE" opacity="0.7"/>
+  <text x="935" y="100" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="600">88%</text>
+  <text x="975" y="100" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">[ACTIVE]</text>
+
+  <!-- GradFit -->
+  <circle cx="580" cy="131" r="4" fill="#FBBF24" filter="url(#glowDot)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="596" y="135" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">GRADFIT</text>
+  <rect x="720" y="124" width="200" height="14" rx="3" fill="#1A1A2E"/>
+  <rect x="720" y="124" width="144" height="14" rx="3" fill="#A855F7" opacity="0.6"/>
+  <text x="935" y="135" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="600">72%</text>
+  <text x="975" y="135" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">[R&amp;D]</text>
+
+  <!-- Rail AI -->
+  <circle cx="580" cy="166" r="4" fill="#FBBF24" filter="url(#glowDot)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="596" y="170" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">RAIL-AI</text>
+  <rect x="720" y="159" width="200" height="14" rx="3" fill="#1A1A2E"/>
+  <rect x="720" y="159" width="120" height="14" rx="3" fill="#A855F7" opacity="0.5"/>
+  <text x="935" y="170" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="600">60%</text>
+  <text x="975" y="170" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">[RESEARCH]</text>
+
+  <!-- ML Research -->
+  <circle cx="580" cy="201" r="4" fill="#28CA42" filter="url(#glowDot)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="596" y="205" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">ML-RESEARCH</text>
+  <rect x="720" y="194" width="200" height="14" rx="3" fill="#1A1A2E"/>
+  <rect x="720" y="194" width="190" height="14" rx="3" fill="#22D3EE" opacity="0.7"/>
+  <text x="935" y="205" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" font-weight="600">95%</text>
+  <text x="975" y="205" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">[ONGOING]</text>
+
+  <!-- System metrics -->
+  <line x1="570" y1="230" x2="1070" y2="230" stroke="#22D3EE" stroke-opacity="0.08" stroke-width="1"/>
+
+  <text x="570" y="255" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" letter-spacing="3">SYSTEM METRICS</text>
+
+  <text x="570" y="280" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">COMMITS</text>
+  <text x="700" y="280" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">████████ active</text>
+
+  <text x="570" y="300" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">CAFFEINE</text>
+  <text x="700" y="300" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">██████████ critical</text>
+
+  <!-- Cursor -->
+  <rect x="30" y="300" width="8" height="14" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>

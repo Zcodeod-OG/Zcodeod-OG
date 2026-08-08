@@ -1,93 +1,97 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Amarsh Choudhary — AI Engineer, Builder, Founder">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,50:22D3EE,100:A855F7&height=120&section=header&text=&animation=twinkling" width="100%">
+
+<img src="./assets/hero.svg" width="100%" alt="NOVA-OS Boot Sequence — Amarsh Choudhary">
+
+<br>
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║     █████╗ ███╗   ███╗ █████╗ ██████╗ ███████╗██╗  ██╗                   ║
+║    ██╔══██╗████╗ ████║██╔══██╗██╔══██╗██╔════╝██║  ██║                   ║
+║    ███████║██╔████╔██║███████║██████╔╝███████╗███████║                   ║
+║    ██╔══██║██║╚██╔╝██║██╔══██║██╔══██╗╚════██║██╔══██║                   ║
+║    ██║  ██║██║ ╚═╝ ██║██║  ██║██║  ██║███████║██║  ██║                   ║
+║    ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝               ║
+║                                                                          ║
+║           [ BUILDING THE FUTURE WITH NEURAL NETWORKS ]                   ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
+
+<br>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=false&width=700&height=40&lines=Founder+%40+Bookly;AI+Engineer+%40+IIT+Delhi;Turning+research+into+products;%24+neural_core+--status+SHIPPING" alt="Typing SVG" />
+</a>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Zcodeod-OG&style=for-the-badge&color=0A0A0F&label=PROFILE+VIEWS&labelColor=0A0A0F">
 
 </div>
 
-## `~/about`
-
-I'm an AI/ML builder at **IIT Delhi**. I like taking ideas from a rough prototype to something people can actually use.
-
-```text
-focus/
-├── speech & generative AI
-├── multimodal systems
-├── product engineering
-└── turning research into products
-```
+---
 
 <div align="center">
 
-<img src="./assets/terminal.svg" width="820" alt="Terminal showing current mission">
+<img src="./assets/terminal.svg" width="95%" alt="NOVA-OS Command Center — System Status">
 
 </div>
 
+---
+
 ## `~/currently-building`
 
-### 🎧 Bookly
+<div align="center">
 
-**AI audiobook infrastructure for expressive, multi-character narration.**
+<a href="https://booklyaudio.com">
+<img src="./assets/bookly_card.svg" width="90%" alt="Bookly — AI Audiobook Infrastructure">
+</a>
 
-Character-consistent voices · emotion-aware speech · multilingual generation · production audio pipelines
-
-[Explore Bookly →](https://booklyaudio.com)
+</div>
 
 ---
 
 ## `~/selected-work`
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### 🎧 Bookly
-AI audiobook platform focused on expressive, multi-character narration.
+<img src="./assets/projects_grid.svg" width="95%" alt="Project Registry">
 
-`Python` `PyTorch` `FastAPI` `TypeScript`
-
-</td>
-<td width="50%">
-
-### 👗 GradFit
-Fashion intelligence and virtual try-on experiments using generative AI.
-
-`Python` `Diffusion` `Next.js`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🚂 Rail AI
-Multimodal railway fault detection using visual and audio signals.
-
-`VLM` `Audio` `Computer Vision`
-
-</td>
-<td width="50%">
-
-### 🧠 ML Experiments
-Models, training systems, speech experiments and research prototypes.
-
-`Python` `PyTorch` `Jupyter`
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
 ## `~/stack`
 
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  ~/stack                                                  [LOADED]  │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,kotlin,typescript,nextjs,docker,postgres,supabase,aws,git,linux&perline=6" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,kotlin,typescript,nextjs&perline=6" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=docker,postgres,supabase,aws,git,linux&perline=6" />
 
 </div>
 
 ---
 
 ## `~/github`
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  ~/github                                              [TELEMETRY]  │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -96,17 +100,23 @@ Models, training systems, speech experiments and research prototypes.
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=Zcodeod-OG&hide_border=true&background=00000000&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=A1A1AA&dates=71717A&currStreakNum=FAFAFA&sideNums=FAFAFA" />
+<img src="https://streak-stats.demolab.com?user=Zcodeod-OG&hide_border=true&background=00000000&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=A1A1AA&dates=71717A&currStreakNum=FAFAFA&sideNums=FAFAFA" />
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zcodeod-OG&bg_color=00000000&color=A1A1AA&line=22D3EE&point=FAFAFA&area=true&hide_border=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zcodeod-OG&bg_color=00000000&color=A1A1AA&line=22D3EE&point=A855F7&area=true&area_color=22D3EE&hide_border=true" width="95%" />
 
 </div>
 
 ---
 
 ## `~/contributions`
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  ~/contributions                                        [ORGANIC]   │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -122,33 +132,45 @@ Models, training systems, speech experiments and research prototypes.
 
 ## `~/timeline`
 
-```text
-2024  ──  started going deep into AI / software
-  │
-2025  ──  IIT Delhi · ML projects · research
-  │
-2026  ──  Bookly · multimodal AI · shipping products
-  │
-  └───→ next: building something interesting
+```
+╔═══════════════════════════════════════════════════════════════════════╗
+║  MISSION LOG — CLASSIFIED                                 [ACTIVE]  ║
+╠═══════════════════════════════════════════════════════════════════════╣
+║                                                                       ║
+║  [2024]  ░░  ORIGIN    — Started deep-diving into AI                  ║
+║          ░░              & software engineering                        ║
+║          ░░                                                           ║
+║  [2025]  ░░  TRAINING  — IIT Delhi · ML projects · research           ║
+║          ░░                                                           ║
+║  [2026]  ██  DEPLOYED  — Bookly · multimodal AI · shipping            ║
+║          ██              products at scale                             ║
+║          ██                                                           ║
+║  [NEXT]  ▓▓  QUEUED    — building something no one expects            ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 <div align="center">
 
-### BUILD · SHIP · LEARN · REPEAT
+### `BUILD · SHIP · LEARN · REPEAT`
 
 <br>
 
 <a href="https://github.com/Zcodeod-OG">
-<img src="https://img.shields.io/badge/GitHub-Zcodeod--OG-09090B?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-Zcodeod--OG-0A0A0F?style=for-the-badge&logo=github&logoColor=white">
 </a>
 <a href="https://booklyaudio.com">
-<img src="https://img.shields.io/badge/Bookly-09090B?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/Bookly-booklyaudio.com-0A0A0F?style=for-the-badge&logo=headphones&logoColor=22D3EE">
 </a>
 
 <br><br>
 
-<sub>© Amarsh Choudhary · built with Markdown, SVGs and too much coffee.</sub>
+<sub>© Amarsh Choudhary — powered by NOVA-OS, caffeine, and gradient descent.</sub>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:22D3EE,100:0A0A0F&height=100&section=footer" width="100%">
 
 </div>

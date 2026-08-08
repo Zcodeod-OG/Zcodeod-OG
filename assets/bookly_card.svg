@@ -1,0 +1,71 @@
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="titleGlow" x1="0" y1="0" x2="300" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="glowB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" rx="14" fill="#0A0A0F"/>
+  <rect x="0.5" y="0.5" width="899" height="279" rx="13.5" stroke="url(#cardBorder)" stroke-width="1.5"/>
+
+  <!-- Header accent line -->
+  <rect x="30" y="20" width="60" height="3" rx="1.5" fill="url(#titleGlow)"/>
+
+  <!-- Title -->
+  <text x="30" y="55" fill="url(#titleGlow)" font-family="'SF Mono', 'Fira Code', monospace" font-size="24" font-weight="800" filter="url(#glowB)">🎧 BOOKLY</text>
+  <text x="240" y="55" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">v2.0 — production</text>
+
+  <!-- Description -->
+  <text x="30" y="85" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="14">AI audiobook infrastructure for expressive, multi-character narration.</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="105" x2="870" y2="105" stroke="#22D3EE" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Feature tree -->
+  <text x="30" y="135" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">$</text>
+  <text x="52" y="135" fill="#E4E4E7" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">bookly --features</text>
+
+  <text x="30" y="163" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">├──</text>
+  <text x="80" y="163" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">character-consistent-voices</text>
+  <text x="400" y="163" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">✓ shipped</text>
+
+  <text x="30" y="188" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">├──</text>
+  <text x="80" y="188" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">emotion-aware-speech</text>
+  <text x="400" y="188" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">✓ shipped</text>
+
+  <text x="30" y="213" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">├──</text>
+  <text x="80" y="213" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">multilingual-generation</text>
+  <text x="400" y="213" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">⟳ building</text>
+
+  <text x="30" y="238" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">└──</text>
+  <text x="80" y="238" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13">production-audio-pipelines</text>
+  <text x="400" y="238" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="11">✓ shipped</text>
+
+  <!-- Tech stack badges -->
+  <rect x="550" y="150" width="70" height="22" rx="4" fill="#1A1A2E" stroke="#22D3EE" stroke-opacity="0.3" stroke-width="0.5"/>
+  <text x="585" y="165" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" text-anchor="middle">Python</text>
+
+  <rect x="630" y="150" width="72" height="22" rx="4" fill="#1A1A2E" stroke="#A855F7" stroke-opacity="0.3" stroke-width="0.5"/>
+  <text x="666" y="165" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" text-anchor="middle">PyTorch</text>
+
+  <rect x="712" y="150" width="72" height="22" rx="4" fill="#1A1A2E" stroke="#22D3EE" stroke-opacity="0.3" stroke-width="0.5"/>
+  <text x="748" y="165" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" text-anchor="middle">FastAPI</text>
+
+  <rect x="794" y="150" width="72" height="22" rx="4" fill="#1A1A2E" stroke="#A855F7" stroke-opacity="0.3" stroke-width="0.5"/>
+  <text x="830" y="165" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="10" text-anchor="middle">TypeScript</text>
+
+  <!-- Explore button -->
+  <rect x="550" y="225" width="180" height="32" rx="6" fill="#0A0A0F" stroke="url(#cardBorder)" stroke-width="1"/>
+  <text x="640" y="246" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" text-anchor="middle" font-weight="600">EXPLORE BOOKLY →</text>
+</svg>

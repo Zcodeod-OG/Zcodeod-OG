@@ -1,17 +1,124 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="360" rx="18" fill="#09090B"/>
-<rect x="1" y="1" width="1198" height="358" rx="17" stroke="#27272A"/>
-<circle cx="32" cy="32" r="6" fill="#52525B"/><circle cx="54" cy="32" r="6" fill="#52525B"/><circle cx="76" cy="32" r="6" fill="#52525B"/>
-<text x="110" y="38" fill="#71717A" font-family="monospace" font-size="14">zcodeod@github:~</text>
-<text x="70" y="125" fill="#FAFAFA" font-family="monospace" font-size="48" font-weight="700">AMARSH CHOUDHARY</text>
-<text x="72" y="165" fill="#A1A1AA" font-family="monospace" font-size="20">AI ENGINEER  ·  BUILDER  ·  FOUNDER</text>
-<text x="72" y="220" fill="#22D3EE" font-family="monospace" font-size="18">$</text>
-<text x="98" y="220" fill="#E4E4E7" font-family="monospace" font-size="18">whoami</text>
-<text x="72" y="254" fill="#A1A1AA" font-family="monospace" font-size="18">building AI products and shipping experiments.</text>
-<text x="72" y="294" fill="#22D3EE" font-family="monospace" font-size="18">$</text>
-<text x="98" y="294" fill="#E4E4E7" font-family="monospace" font-size="18">current --project</text>
-<text x="315" y="294" fill="#F4F4F5" font-family="monospace" font-size="18">Bookly</text>
-<rect x="388" y="281" width="10" height="20" fill="#22D3EE">
-  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-</rect>
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.3"/>
+    </linearGradient>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="1200" height="4">
+      <rect width="1200" height="2" fill="#FFFFFF" opacity="0.015"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="16" fill="#0A0A0F"/>
+  <rect width="1200" height="420" rx="16" fill="url(#scanlines)"/>
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="15.5" stroke="url(#borderGrad)" stroke-width="1"/>
+
+  <!-- Traffic lights -->
+  <circle cx="28" cy="28" r="6" fill="#FF5F57" opacity="0.8"/>
+  <circle cx="48" cy="28" r="6" fill="#FFBD2E" opacity="0.8"/>
+  <circle cx="68" cy="28" r="6" fill="#28CA42" opacity="0.8"/>
+
+  <!-- Title bar -->
+  <text x="92" y="33" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="12">nova-os v2.6 — zcodeod@neural-core</text>
+
+  <!-- Boot sequence lines with animation -->
+  <text x="40" y="72" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    [NOVA-OS] Initializing neural core...
+    <animate attributeName="opacity" from="0" to="0.7" begin="0.2s" dur="0.3s" fill="freeze"/>
+  </text>
+  <text x="520" y="72" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ██████████ OK
+    <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.2s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="94" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    [NOVA-OS] Loading AI subsystems...
+    <animate attributeName="opacity" from="0" to="0.7" begin="0.8s" dur="0.3s" fill="freeze"/>
+  </text>
+  <text x="520" y="94" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ██████████ OK
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.2s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="116" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    [NOVA-OS] Mounting knowledge graph...
+    <animate attributeName="opacity" from="0" to="0.7" begin="1.4s" dur="0.3s" fill="freeze"/>
+  </text>
+  <text x="520" y="116" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    ██████████ OK
+    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.2s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="138" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
+    [NOVA-OS] zcodeod identity verified.
+    <animate attributeName="opacity" from="0" to="0.8" begin="2.0s" dur="0.3s" fill="freeze"/>
+  </text>
+  <text x="520" y="138" fill="#FBBF24" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" font-weight="700" opacity="0">
+    ACCESS GRANTED
+    <animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Divider line -->
+  <line x1="40" y1="160" x2="1160" y2="160" stroke="#22D3EE" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Big Name -->
+  <text x="600" y="225" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="56" font-weight="800" text-anchor="middle" filter="url(#glow)" opacity="0">
+    AMARSH CHOUDHARY
+    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="265" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="18" text-anchor="middle" filter="url(#glow)" opacity="0" letter-spacing="6">
+    AI ENGINEER  ·  BUILDER  ·  FOUNDER
+    <animate attributeName="opacity" from="0" to="0.9" begin="3.3s" dur="0.4s" fill="freeze"/>
+  </text>
+
+  <!-- Command prompt -->
+  <text x="40" y="330" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" opacity="0">
+    $
+    <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.2s" fill="freeze"/>
+  </text>
+  <text x="62" y="330" fill="#E4E4E7" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" opacity="0">
+    whoami --verbose
+    <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.2s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="360" fill="#A1A1AA" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" opacity="0">
+    IIT Delhi · building AI products that ship · turning research into things people use
+    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="390" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" opacity="0">
+    $
+    <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.2s" fill="freeze"/>
+  </text>
+  <text x="62" y="390" fill="#E4E4E7" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" opacity="0">
+    nova --status
+    <animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.2s" fill="freeze"/>
+  </text>
+  <text x="230" y="390" fill="#28CA42" font-family="'SF Mono', 'Fira Code', monospace" font-size="15" opacity="0">
+    ALL SYSTEMS OPERATIONAL
+    <animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.3s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="460" y="377" width="10" height="18" fill="#22D3EE" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;0.85;0.86;0.99;1" begin="5.0s" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
 </svg>
