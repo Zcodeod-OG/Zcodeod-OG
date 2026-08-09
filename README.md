@@ -2,11 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,50:22D3EE,100:A855F7&height=120&section=header&text=&animation=twinkling" width="100%">
 
-<img src="./assets/hero.svg" width="100%" alt="NOVA-OS Boot Sequence — Amarsh Choudhary">
+<img src="./assets/ascii_name.svg" width="90%" alt="AMARSH — ASCII Art">
 
 <br>
 
-<img src="./assets/ascii_name.svg" width="90%" alt="AMARSH — ASCII Art">
+<img src="./assets/hero.svg" width="100%" alt="NOVA-OS Boot Sequence — Amarsh Choudhary">
 
 <br>
 
