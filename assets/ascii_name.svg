@@ -1,89 +1,48 @@
-<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="624" height="400" viewBox="0 0 624 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="glowA">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+    <linearGradient id="photoBorder" x1="0" y1="0" x2="624" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <linearGradient id="asciiBorder" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.25"/>
-    </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="300" rx="14" fill="#0A0A0F"/>
-  <rect x="0.5" y="0.5" width="899" height="299" rx="13.5" stroke="url(#asciiBorder)" stroke-width="1"/>
-
-  <!-- Line 1: Top border -->
-  <text x="50" y="40" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ╔══════════════════════════════════════════════════════════════════════════╗
-    <animate attributeName="opacity" from="0" to="0.6" begin="0.1s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 2: Empty -->
-  <text x="50" y="60" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ║                                                                          ║
-    <animate attributeName="opacity" from="0" to="0.6" begin="0.25s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 3: A M A R S H  row 1 -->
-  <text x="50" y="80" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║   █████╗ ███╗   ███╗ █████╗ ██████╗ ███████╗██╗  ██╗                    ║
-    <animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 4: row 2 -->
-  <text x="50" y="100" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║  ██╔══██╗████╗ ████║██╔══██╗██╔══██╗██╔════╝██║  ██║                    ║
-    <animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 5: row 3 -->
-  <text x="50" y="120" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║  ███████║██╔████╔██║███████║██████╔╝███████╗███████║                    ║
-    <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 6: row 4 -->
-  <text x="50" y="140" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║  ██╔══██║██║╚██╔╝██║██╔══██║██╔══██╗╚════██║██╔══██║                    ║
-    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 7: row 5 -->
-  <text x="50" y="160" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║  ██║  ██║██║ ╚═╝ ██║██║  ██║██║  ██║███████║██║  ██║                    ║
-    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 8: row 6 -->
-  <text x="50" y="180" fill="#FAFAFA" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0">
-    ║  ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝                ║
-    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 9: Empty -->
-  <text x="50" y="200" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ║                                                                          ║
-    <animate attributeName="opacity" from="0" to="0.6" begin="1.3s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 10: Tagline -->
-  <text x="50" y="220" fill="#A855F7" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ║           [ BUILDING THE FUTURE WITH NEURAL NETWORKS ]                   ║
-    <animate attributeName="opacity" from="0" to="0.9" begin="1.5s" dur="0.3s" fill="freeze"/>
-  </text>
-
-  <!-- Line 11: Empty -->
-  <text x="50" y="240" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ║                                                                          ║
-    <animate attributeName="opacity" from="0" to="0.6" begin="1.8s" dur="0.15s" fill="freeze"/>
-  </text>
-
-  <!-- Line 12: Bottom border -->
-  <text x="50" y="260" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="13" opacity="0" filter="url(#glowA)">
-    ╚══════════════════════════════════════════════════════════════════════════╝
-    <animate attributeName="opacity" from="0" to="0.6" begin="1.95s" dur="0.15s" fill="freeze"/>
-  </text>
+  <rect width="624" height="400" rx="14" fill="#0A0A0F"/>
+  <rect x="0.5" y="0.5" width="623" height="399" rx="13.5" stroke="url(#photoBorder)" stroke-width="1"/>
+  <circle cx="20" cy="18" r="4" fill="#FF5F57" opacity="0.8"/>
+  <circle cx="34" cy="18" r="4" fill="#FFBD2E" opacity="0.8"/>
+  <circle cx="48" cy="18" r="4" fill="#28CA42" opacity="0.8"/>
+  <text x="64" y="22" fill="#52525B" font-family="'SF Mono', 'Fira Code', monospace" font-size="10">nova-os — visual_neural_render.ascii</text>
+  <text x="24" y="40" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                         .`^^^```                          ^l ?_&gt;_?]1)|tfxnucYJL00Zqpdbhaa<animate attributeName="opacity" from="0" to="0.9" begin="0.10s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="52" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">               .&quot;,`          ..                         ` .:._-i~_?})(/frnucXUCQ0Owdbbhaoo<animate attributeName="opacity" from="0" to="0.9" begin="0.19s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="64" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                `&quot;&quot;.                                    `.&quot; i_ll&gt;-[{(\tjxvcXUJL0Zqdbaaaa**<animate attributeName="opacity" from="0" to="0.9" begin="0.27s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="76" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                              `^   ;;,:&quot;          &quot;      ^ I~:ll_[})|/fruzYUJL0Zwpbh***##%<animate attributeName="opacity" from="0" to="0.9" begin="0.36s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="88" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                             .`^&quot;^:;&quot;,Ii?}}!`     `      .;!&quot;:i&gt;_]1|/frncYJJL0Zwqdka####%%<animate attributeName="opacity" from="0" to="0.9" begin="0.44s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="100" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                           ``  &gt;]+)[1x0h█%kL|l`          &quot;:`&quot;;i&gt;_[)|tjxvzYCL0Omqdbka*##%@█<animate attributeName="opacity" from="0" to="0.9" begin="0.53s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="112" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                            &quot;;;~fnw@████@hQ/!``.         . `;ll&gt;-})\frucXUL0OZwqdbkh*##@██<animate attributeName="opacity" from="0" to="0.9" begin="0.61s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="124" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                             (]1n0k#█████*OmUnl.i           ^:l+?}(\fruzYJLOOZwqdbkko##@█@<animate attributeName="opacity" from="0" to="0.9" begin="0.70s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="136" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                             upXkdqq##%oqhphZJ+               .:~{\tfjnzXJLOZZwqdbbkao#%%%<animate attributeName="opacity" from="0" to="0.9" begin="0.79s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="148" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                              Yzbo%@kbkUUQ█@█p~,`                &quot;![/rvczUCQOOZwppdbhao***<animate attributeName="opacity" from="0" to="0.9" begin="0.87s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="160" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                              !r%███@%█#*█████]:`                   ^i)uXXUCQ0Omwqqdbkhaao<animate attributeName="opacity" from="0" to="0.9" begin="0.96s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="172" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                                J████████████al                        ,}cXUCQ0OZZmqqpdbaa<animate attributeName="opacity" from="0" to="0.9" begin="1.04s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="184" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                                 X████████@*p-                           iXYUCLQQOZmppqZUu<animate attributeName="opacity" from="0" to="0.9" begin="1.13s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="196" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                              ;!1jk@#%%@#hwmp&gt;I .                         +vYYJQ00LY/]](tt<animate attributeName="opacity" from="0" to="0.9" begin="1.21s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="208" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                    ^,:~}tun)J#do*k@%@██@%%██xvUwC[i();                    :xzvx/__(?+ii_1<animate attributeName="opacity" from="0" to="0.9" begin="1.30s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="220" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                  `&gt;UCYmkh#k*████@*██████████#a%█@@d#█pc[:^                 ^?[?!.;&gt;_[((}&gt;<animate attributeName="opacity" from="0" to="0.9" begin="1.39s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="232" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                 _zLp██████bb█████#a@███████████@@a*█@██@dmrI                &quot;_+i:`.  ,+_]<animate attributeName="opacity" from="0" to="0.9" begin="1.47s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="244" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">               ;{0Zwp%%████bo██████*bbho*oaa*█████a*████████bi&quot;;              :^.:Il^   .^<animate attributeName="opacity" from="0" to="0.9" begin="1.56s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="256" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">              ~ccLwbwo#@███k%████████%ohkho%██████dh███████@█rvv                   :l;&quot;`` <animate attributeName="opacity" from="0" to="0.9" begin="1.64s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="268" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">             !jYzcpkpZ█#%██*█████%@███████████████dm████████@c%Q                     `^^^&quot;<animate attributeName="opacity" from="0" to="0.9" begin="1.73s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="280" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">            ;}fvXj0qZu██%%█@██████*███████████████%J█████████O█J &quot;                      .&quot;<animate attributeName="opacity" from="0" to="0.9" begin="1.81s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="292" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">           .l-)tn\rQU1k%%@%███████@h███████████████Jb████████#*j)-                        <animate attributeName="opacity" from="0" to="0.9" begin="1.90s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="304" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">            `:&gt;?{}~nz~cbdh*#███████*b██████████████of%███████dYOm/;                       <animate attributeName="opacity" from="0" to="0.9" begin="1.99s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="316" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">              .^,I`~[;~YLL0q*@dodo██dm████@█@███████zr█████oOLbqLv[^                      <animate attributeName="opacity" from="0" to="0.9" begin="2.07s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="328" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                    .  ~(frxzOLJLQk#h0Ldqq*Yq████dZpb~wao%mrXwqQJc(i                      <animate attributeName="opacity" from="0" to="0.9" begin="2.16s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="340" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                        `;&gt;~+-(jxjruvCXrXCwYZpdddO0Ow+(OOL/uYXJUzn|-,                     <animate attributeName="opacity" from="0" to="0.9" begin="2.24s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="352" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                           .^&quot;:_1j}&gt;!l+--(/jfjrrruvcv]:fr}|t|trrf\)-I                     <animate attributeName="opacity" from="0" to="0.9" begin="2.33s" dur="0.08s" fill="freeze"/></text>
+  <text x="24" y="364" fill="#22D3EE" font-family="'SF Mono', 'Fira Code', monospace" font-size="10.5" opacity="0" xml:space="preserve">                             .&quot;i-f[!:`    &quot;:;IIl!&gt;+-_l l!&quot;~~+-][]?+iI^                    <animate attributeName="opacity" from="0" to="0.9" begin="2.41s" dur="0.08s" fill="freeze"/></text>
 </svg>
