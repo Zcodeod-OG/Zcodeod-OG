@@ -2,16 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,50:22D3EE,100:A855F7&height=120&section=header&text=&animation=twinkling" width="100%">
 
-<img src="./assets/ascii_name.svg" width="90%" alt="AMARSH — ASCII Art">
-
-<br>
-
-<img src="./assets/hero.svg" width="100%" alt="NOVA-OS Boot Sequence — Amarsh Choudhary">
+<img src="./assets/hero.svg" width="100%" alt="Amarsh Choudhary — AI Engineer, Founder of Bookly">
 
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=false&width=700&height=40&lines=Founder+%40+Bookly;AI+Engineer+%40+IIT+Delhi;Turning+research+into+products;%24+neural_core+--status+SHIPPING" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=false&width=700&height=40&lines=Founder+%40+Bookly;AI+Engineer+%40+IIT+Delhi;Speech+%C2%B7+Diffusion+%C2%B7+Multimodal+AI;Turning+research+into+products;%24+neural_core+--status+SHIPPING" alt="Typing SVG" />
 </a>
 
 <br>
@@ -20,7 +16,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 <div align="center">
 
@@ -28,7 +24,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/currently-building`
 
@@ -40,7 +36,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/selected-work`
 
@@ -79,27 +75,21 @@
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/stack`
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│  ~/stack                                                  [LOADED]  │
-└──────────────────────────────────────────────────────────────────────┘
-```
-
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,kotlin,typescript,nextjs&perline=6" />
+<img src="./assets/stack_marquee.svg" width="100%" alt="Tech stack">
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=docker,postgres,supabase,aws,git,linux&perline=6" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,kotlin,typescript,nextjs,docker,postgres,supabase,aws,git,linux&perline=12" />
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/github`
 
@@ -124,7 +114,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/contributions`
 
@@ -144,7 +134,7 @@
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%">
 
 ## `~/timeline`
 
@@ -166,7 +156,7 @@
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
----
+<img src="./assets/divider.svg" width="100%">
 
 <div align="center">
 
