@@ -12,6 +12,10 @@
 
 <br>
 
+<img src="./assets/ascii_portrait.svg" width="70%" alt="ASCII portrait of Amarsh Choudhary">
+
+<br>
+
 <img src="https://komarev.com/ghpvc/?username=Zcodeod-OG&style=for-the-badge&color=0A0A0F&label=PROFILE+VIEWS&labelColor=0A0A0F">
 
 </div>
