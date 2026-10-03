@@ -1,6 +1,2 @@
-<svg width="1200" height="24" viewBox="0 0 1200 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></linearGradient></defs>
-<line x1="40" y1="12" x2="1160" y2="12" stroke="#FFFFFF" stroke-opacity=".08"/>
-<rect x="-300" y="11" width="300" height="2" fill="url(#g)"><animate attributeName="x" from="-300" to="1200" dur="4s" repeatCount="indefinite"/></rect>
-<polygon points="600,5 607,12 600,19 593,12" fill="#0A0A0F" stroke="#22D3EE"><animate attributeName="fill" values="#0A0A0F;#22D3EE;#0A0A0F" dur="4s" repeatCount="indefinite"/></polygon>
-</svg>
+<svg width="1200" height="20" viewBox="0 0 1200 20" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C9A45C" stop-opacity="0"/><stop offset=".5" stop-color="#C9A45C"/><stop offset="1" stop-color="#C9A45C" stop-opacity="0"/></linearGradient></defs>
+<line x1="0" y1="10" x2="1200" y2="10" stroke="#2B2A26"/><rect x="-240" y="9" width="240" height="2" fill="url(#g)"><animate attributeName="x" from="-240" to="1200" dur="7s" repeatCount="indefinite"/></rect></svg>
