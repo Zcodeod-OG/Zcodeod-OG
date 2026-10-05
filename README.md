@@ -1,18 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,50:22D3EE,100:A855F7&height=120&section=header&text=&animation=twinkling" width="100%">
-
 <img src="./assets/hero.svg" width="100%" alt="Amarsh Choudhary — AI Engineer, Founder of Bookly">
 
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&multiline=false&width=700&height=40&lines=Founder+%40+Bookly;AI+Engineer+%40+IIT+Delhi;Speech+%C2%B7+Diffusion+%C2%B7+Multimodal+AI;Turning+research+into+products;%24+neural_core+--status+SHIPPING" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=C9A45C&center=true&vCenter=true&multiline=false&width=700&height=40&lines=Founder+%40+Bookly;AI+Engineer+%40+IIT+Delhi;Speech+%C2%B7+Diffusion+%C2%B7+Multimodal+AI;Turning+research+into+products" alt="Typing SVG" />
 </a>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Zcodeod-OG&style=for-the-badge&color=0A0A0F&label=PROFILE+VIEWS&labelColor=0A0A0F">
+<img src="./assets/ascii_portrait.svg" width="70%" alt="ASCII portrait of Amarsh Choudhary">
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Zcodeod-OG&style=for-the-badge&color=181816&label=PROFILE+VIEWS&labelColor=111110">
 
 </div>
 
@@ -20,25 +22,13 @@
 
 <div align="center">
 
-<img src="./assets/terminal.svg" width="95%" alt="NOVA-OS Command Center — System Status">
+<img src="./assets/terminal.svg" width="95%" alt="About Amarsh Choudhary and current projects">
 
 </div>
 
 <img src="./assets/divider.svg" width="100%">
 
-## `~/currently-building`
-
-<div align="center">
-
-<a href="https://booklyaudio.com">
-<img src="./assets/bookly_card.svg" width="90%" alt="Bookly — AI Audiobook Infrastructure">
-</a>
-
-</div>
-
-<img src="./assets/divider.svg" width="100%">
-
-## `~/selected-work`
+## Selected Work
 
 <table>
 <tr>
@@ -77,7 +67,7 @@
 
 <img src="./assets/divider.svg" width="100%">
 
-## `~/stack`
+## Stack
 
 <div align="center">
 
@@ -91,38 +81,26 @@
 
 <img src="./assets/divider.svg" width="100%">
 
-## `~/github`
-
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│  ~/github                                              [TELEMETRY]  │
-└──────────────────────────────────────────────────────────────────────┘
-```
+## GitHub
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Zcodeod-OG&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&title_color=22D3EE&icon_color=22D3EE&text_color=A1A1AA&bg_color=00000000" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zcodeod-OG&layout=compact&hide_border=true&theme=transparent&title_color=22D3EE&text_color=A1A1AA&bg_color=00000000" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Zcodeod-OG&show_icons=true&hide_border=true&bg_color=00000000&title_color=C9A45C&icon_color=C9A45C&text_color=97927F&rank_icon=github" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zcodeod-OG&layout=compact&hide_border=true&bg_color=00000000&title_color=C9A45C&text_color=97927F" />
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=Zcodeod-OG&hide_border=true&background=00000000&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=A1A1AA&dates=71717A&currStreakNum=FAFAFA&sideNums=FAFAFA" />
+<img src="https://streak-stats.demolab.com?user=Zcodeod-OG&hide_border=true&background=00000000&ring=C9A45C&fire=C9A45C&currStreakLabel=C9A45C&sideLabels=97927F&dates=615E52&currStreakNum=ECE9E1&sideNums=ECE9E1" />
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zcodeod-OG&bg_color=00000000&color=A1A1AA&line=22D3EE&point=A855F7&area=true&area_color=22D3EE&hide_border=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zcodeod-OG&bg_color=00000000&color=97927F&line=C9A45C&point=ECE9E1&area=true&area_color=C9A45C&hide_border=true" width="95%" />
 
 </div>
 
 <img src="./assets/divider.svg" width="100%">
 
-## `~/contributions`
-
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│  ~/contributions                                        [ORGANIC]   │
-└──────────────────────────────────────────────────────────────────────┘
-```
+## Contributions
 
 <div align="center">
 
@@ -130,53 +108,27 @@
 
 <br><br>
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="95%" alt="3D GitHub contribution graph">
+<img src="./profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D GitHub contribution graph">
 
 </div>
 
 <img src="./assets/divider.svg" width="100%">
 
-## `~/timeline`
+## Timeline
 
-```
-╔═══════════════════════════════════════════════════════════════════════╗
-║  MISSION LOG — CLASSIFIED                                 [ACTIVE]  ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║                                                                       ║
-║  [2024]  ░░  ORIGIN    — Started deep-diving into AI                  ║
-║          ░░              & software engineering                        ║
-║          ░░                                                           ║
-║  [2025]  ░░  TRAINING  — IIT Delhi · ML projects · research           ║
-║          ░░                                                           ║
-║  [2026]  ██  DEPLOYED  — Bookly · multimodal AI · shipping            ║
-║          ██              products at scale                             ║
-║          ██                                                           ║
-║  [NEXT]  ▓▓  QUEUED    — building something no one expects            ║
-║                                                                       ║
-╚═══════════════════════════════════════════════════════════════════════╝
-```
+- **2024** — Started going deep on AI and software engineering.
+- **2025** — IIT Delhi: ML projects and research.
+- **2026** — Building Bookly and multimodal AI products.
 
 <img src="./assets/divider.svg" width="100%">
 
 <div align="center">
 
-### `BUILD · SHIP · LEARN · REPEAT`
-
-<br>
-
-<a href="https://github.com/Zcodeod-OG">
-<img src="https://img.shields.io/badge/GitHub-Zcodeod--OG-0A0A0F?style=for-the-badge&logo=github&logoColor=white">
-</a>
-<a href="https://booklyaudio.com">
-<img src="https://img.shields.io/badge/Bookly-booklyaudio.com-0A0A0F?style=for-the-badge&logo=headphones&logoColor=22D3EE">
-</a>
+<a href="https://github.com/Zcodeod-OG"><img src="https://img.shields.io/badge/GitHub-Zcodeod--OG-181816?style=flat-square&logo=github&logoColor=ECE9E1"></a>
+<a href="https://booklyaudio.com"><img src="https://img.shields.io/badge/Bookly-booklyaudio.com-181816?style=flat-square&logoColor=C9A45C&labelColor=181816&color=181816"></a>
 
 <br><br>
 
-<sub>© Amarsh Choudhary — powered by NOVA-OS, caffeine, and gradient descent.</sub>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:22D3EE,100:0A0A0F&height=100&section=footer" width="100%">
+<sub>© Amarsh Choudhary</sub>
 
 </div>
